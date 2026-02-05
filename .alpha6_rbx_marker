@@ -1,8 +1,0 @@
-This marker file indicates that the alpha6_rbx branch has been created with the following 4 commits:
-1. 9fc1336 - Initial plan
-2. 415026b - v4 readme updated with v6 info
-3. 91c8e12 - qwen cli - custom commands (#551)
-4. 458704f - workflow manual release update
-
-Branch created on: 2026-02-05
-Purpose: Preserve these commits before syncing with upstream repository
