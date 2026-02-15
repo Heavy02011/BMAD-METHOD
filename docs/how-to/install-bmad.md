@@ -81,6 +81,14 @@ your-project/
 
 Run the `help` workflow (`/bmad-help` on most platforms) to verify everything works and see what to do next.
 
+## Claude Code (including Opus 4.6) Compatibility Notes
+
+- BMad installs Claude Code integrations as generated slash-command files in `.claude/commands/`.
+- Generated command names use a `bmad-` prefix, so they are isolated from your own custom commands.
+- BMad workflow/task/agent commands are prompt files and do not pin a specific Claude model version, so they work with current Claude Code models (including Opus 4.6).
+- Subagent usage in BMad content is guidance ("if available"), not a hard requirement, so there is no blocker if you run without subagents.
+- Existing Claude Code skills can coexist with BMad. To avoid collisions, keep custom skill names clearly namespaced (for example, `your-team-*` or `bmad-os-*`).
+
 ## Troubleshooting
 
 **Installer throws an error** — Copy-paste the output into your AI assistant and let it figure it out.
